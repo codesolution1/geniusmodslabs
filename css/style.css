@@ -1,0 +1,435 @@
+/*  ================================
+        global area start
+    ================================ */
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #1a1a1a;
+}
+
+a,
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+.main-div {
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*  ================================
+        global area end
+    ================================ */
+
+/*  ================================
+        header area start
+    ================================ */
+.header-area {
+    margin: 10px 0;
+}
+
+.support-box {
+    overflow: hidden;
+    background-color: #22211C;
+}
+
+.why-us {
+    width: 20%;
+    float: left;
+}
+
+.why-us h3 {
+    background-color: #A4B85F;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
+.why-us i.fa {
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.support-box ul li {
+    float: left;
+    width: 25%;
+    list-style: none;
+    position: relative;
+    border-right: 1px solid #D1D1D1;
+    padding: 10px 0;
+    border-left: 0;
+}
+
+.support-box ul li:last-child {
+    margin-right: 0;
+}
+
+.service-box {
+    overflow: hidden;
+    width: 80%;
+    float: left;
+}
+
+.service-left {
+    width: 24%;
+    float: left;
+    text-align: right;
+}
+
+.service-left i {
+    font-size: 30px;
+    color: #A4B85F;
+}
+
+.service-right {
+    width: 76%;
+    font-weight: 600;
+    float: right;
+    padding: 4px 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 0.5s;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+.satisfacation {
+    text-align: right;
+    margin: 28px 0;
+}
+
+.satisfacation img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+/*======================== Menu Design ==================*/
+.menu-area {
+    background-color: #22211C;
+    margin-bottom: 10px;
+}
+
+.menu-container {
+    text-align: center;
+}
+
+#navbar {
+    text-align: center;
+}
+
+#menu-switcher,
+.navbar-header > label,
+.switch {
+    display: none;
+}
+
+.menu-container label::before {
+    border-bottom: 2px solid #A4B85F;
+    box-shadow: 0 5px 0 0 #A4B85F, 0 0 0 0 inset, 0 -5px 0 0 #A4B85F;
+    content: "";
+    height: 0;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+
+.switch {
+    width: 100%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.menu-container label {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    cursor: pointer;
+    display: none;
+    height: 35px;
+    padding: 0;
+    position: absolute !important;
+    right: 0;
+    top: 7px;
+    width: 40px;
+    z-index: 9999;
+    border: 1px solid #A4B85F;
+}
+
+#navbar ul {
+    display: inline-flex;
+}
+
+#navbar ul li {
+    display: inline-block;
+}
+
+#navbar ul li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    padding: 20px 50px;
+    letter-spacing: 1px;
+    border-left: 1px solid #fff;
+}
+
+#navbar ul li:last-child a {
+    border-right: 1px solid #fff;
+}
+
+#navbar ul li a i.fa {
+    margin-right: 5px;
+}
+
+
+#navbar ul li a:hover {
+    background-color: #4B4541;
+    color: #fff;
+}
+
+/* menu part end */
+
+/*  ================================
+        header area end
+    ================================ */
+
+.Product-title-area {
+    background-color: #A4B85F;
+}
+
+.pro-title {
+    background-color: #22211C;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.pro-title h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-img {
+    border: 1px solid #eee;
+    margin: 30px 0;
+    padding: 30px;
+}
+
+/*  ================================
+        product area start
+    ================================ */
+
+.box-area {
+    margin: 0 0 30px;
+}
+
+.box-area h1 {
+    background-color: #000;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.box-content {
+    padding: 30px 30px 0;
+    overflow: hidden;
+    border: 1px solid #eee;
+}
+
+.pro-img {
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.product-img {
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #eee;
+}
+
+.pro-single-img img {
+    padding: 20px;
+    width: 100%;
+}
+
+.pro-features h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+
+.pro-content {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.pro-content h2 {
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.pro-content h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: 15px 0;
+}
+
+.pro-content h4 {
+    font-size: 26px;
+    color: #000;
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.pro-content h4 img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.pro-content h3 i.fa {
+    color: #A4B85F;
+}
+
+.pro-content h5 {
+    font-size: 14px;
+    color: #000;
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+
+.pro-content ul {
+    margin-bottom: 15px;
+}
+
+.pro-content ul li {
+    list-style: none;
+    padding: 3px 20px;
+    position: relative;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pro-content ul li::before {
+    position: absolute;
+    content: "\f00c";
+    font-family: fontawesome;
+    left: 0;
+    color: #A4B85F;
+}
+
+.box-des h1 {
+    padding-left: 30px;
+}
+
+/*  ================================
+        product area end
+    ================================ */
+
+/*  ================================
+        footer area start
+    ================================ */
+
+.footer-top {
+    padding: 10px 0;
+    background-color: #000;
+    margin-top: 30px;
+}
+
+.footer-logo {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer-widget p {
+    margin: 0 0 20px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-widget h3 {
+    padding: 60px 0 10px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    height: auto;
+    font-weight: bold;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.footer-pay img {
+    padding: 52px 0 0;
+}
+
+.copy-right {
+    padding: 10px 0;
+    background-color: #A4B85F;
+}
+
+.copy-right p {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-weight: bold;
+}
+
+/*  ================================
+        footer area end
+    ================================ */
